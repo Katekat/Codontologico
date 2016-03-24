@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form2 : Form
+    public partial class frmprincipal : Form
     {
-        public Form2()
+        public frmprincipal()
         {
             InitializeComponent();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            frmCita citas = new frmCita();
+            citas.Show();
         }
     }
 }
