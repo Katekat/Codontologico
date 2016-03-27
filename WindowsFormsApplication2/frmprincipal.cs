@@ -21,6 +21,7 @@ namespace WindowsFormsApplication2
         {
             frmCita citas = new frmCita();
             citas.Show();
+            //
         }
     }
 }
